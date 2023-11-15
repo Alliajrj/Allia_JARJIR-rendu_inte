@@ -1,0 +1,16 @@
+@use "../abstracts/variables" as *;
+
+.logo{
+    height: 70px;
+    width: 200px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    size: 31.5px;
+    align-items: flex-end;
+    img {
+        padding: 10px;
+    }
+}

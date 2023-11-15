@@ -1,0 +1,50 @@
+@use "../abstracts/variables" as *;
+@use "../base/typography" as *;
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+      90deg,
+      rgba(96, 160, 216, 0.6) 0%,
+      rgba(178, 210, 52, 0.6) 100%
+    ),
+    url("../../images/Header-back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+    ul {
+      a {
+        margin: 25px;
+        font-size: $font-size-reg;
+        color: $white-primary;
+        text-decoration: none;
+      }
+    }
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      font-size: 126px;
+      font-weight: 500;
+      color: $white-primary;
+    }
+    h2 {
+      font-size: 54px;
+      font-weight: 200;
+      font-style: italic;
+      color: $white-primary;
+      rotate: -9deg;
+    }
+  }
+}
