@@ -5,6 +5,7 @@
 @use 'components/buttons';
 @use 'components/icons';
 @use 'layout/header';
+@use 'layout/container';
 
 body{
     background-color: $white-primary;

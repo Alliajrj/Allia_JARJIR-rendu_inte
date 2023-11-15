@@ -1,0 +1,23 @@
+@use "../abstracts/variables" as *;
+@use "../base/typography" as *;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../images/61842.png");
+  div {
+    height: 475px;
+    width: 627px;
+    margin-left: 148px;
+    h3 {
+      font-family: $font-primary;
+      font-weight: 600;
+      font-size: $font-size-title;
+      color: $green-primary;
+    }
+  }
+}

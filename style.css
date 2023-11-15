@@ -72,6 +72,27 @@ header div h2 {
   rotate: -9deg;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../../images/61842.png");
+}
+.container div {
+  height: 475px;
+  width: 627px;
+  margin-left: 148px;
+}
+.container div h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 52px;
+  color: #B2D234;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Poppins", sans-serif;
